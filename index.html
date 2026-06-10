@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jack: Beach Assault</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hud">
+      <div><strong>Jack: Beach Assault</strong></div>
+      <div id="status">Lives: 3 | Lasers: Unlimited</div>
+    </header>
+    <section class="keybinds">
+      <strong>Keybindings</strong>
+      <span><kbd>A</kbd>/<kbd>D</kbd> or <kbd>←</kbd>/<kbd>→</kbd>: Run</span>
+      <span><kbd>W</kbd>/<kbd>Space</kbd>/<kbd>↑</kbd>: Jump</span>
+      <span><kbd>F</kbd>/<kbd>J</kbd>: Shoot lasers</span>
+      <span><kbd>R</kbd>: Restart run</span>
+      <span>Jump on enemies to stomp them</span>
+      <span>Hit mystery boxes from below or blast them for random powers</span>
+    </section>
+    <canvas id="game" width="960" height="540" aria-label="Jack beach platformer game"></canvas>
+  </main>
+  <script src="./game.js"></script>
+</body>
+</html>

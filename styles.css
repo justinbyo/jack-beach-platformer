@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #121826;
+  color: #f8fafc;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.app {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 12px;
+}
+
+.hud,
+.keybinds {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.hud {
+  justify-content: space-between;
+}
+
+.keybinds {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+kbd {
+  border: 1px solid #64748b;
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  padding: 2px 6px;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+canvas {
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 16 / 9;
+  image-rendering: pixelated;
+  border: 2px solid #334155;
+  border-radius: 10px;
+  background: #87ceeb;
+}
